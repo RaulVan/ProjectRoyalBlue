@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0293A11BA443AA00C4BF01 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0293A01BA443AA00C4BF01 /* MenuView.m */; settings = {ASSET_TAGS = (); }; };
+		ED5A9A881B9D986D00296223 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5A9A871B9D986D00296223 /* LaunchScreen.xib */; };
+		ED75E52B1B9D682F0037EECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75E52A1B9D682F0037EECA /* main.m */; };
+		ED75E52E1B9D682F0037EECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75E52D1B9D682F0037EECA /* AppDelegate.m */; };
+		ED75E5311B9D682F0037EECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75E5301B9D682F0037EECA /* ViewController.m */; };
+		ED75E5341B9D682F0037EECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75E5321B9D682F0037EECA /* Main.storyboard */; };
+		ED75E5361B9D682F0037EECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75E5351B9D682F0037EECA /* Assets.xcassets */; };
+		ED75E5441B9D682F0037EECA /* ProjectRoyalBlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75E5431B9D682F0037EECA /* ProjectRoyalBlueTests.m */; };
+		ED75E5611B9D68EC0037EECA /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75E55E1B9D68EC0037EECA /* NSString+Encrypt.m */; };
+		ED75E5621B9D68EC0037EECA /* UIImage+WallPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75E5601B9D68EC0037EECA /* UIImage+WallPaper.m */; };
+		ED75E5641B9D697A0037EECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75E5631B9D697A0037EECA /* Foundation.framework */; };
+		ED75E5661B9D69850037EECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75E5651B9D69850037EECA /* UIKit.framework */; };
+		ED75E5681B9D698E0037EECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75E5671B9D698E0037EECA /* CoreGraphics.framework */; };
+		ED75E56D1B9D70640037EECA /* UIColor+uiGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75E56C1B9D70640037EECA /* UIColor+uiGradients.m */; };
+		ED75E5701B9D890C0037EECA /* gradients.json in Resources */ = {isa = PBXBuildFile; fileRef = ED75E56F1B9D890C0037EECA /* gradients.json */; };
+		EDE800841B9D949C00BED0C0 /* JsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE800831B9D949C00BED0C0 /* JsonHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED75E5401B9D682F0037EECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED75E51E1B9D682F0037EECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED75E5251B9D682F0037EECA;
+			remoteInfo = ProjectRoyalBlue;
+		};
+		ED75E54B1B9D682F0037EECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED75E51E1B9D682F0037EECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED75E5251B9D682F0037EECA;
+			remoteInfo = ProjectRoyalBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED02939F1BA443AA00C4BF01 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		ED0293A01BA443AA00C4BF01 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		ED5A9A871B9D986D00296223 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		ED75E5261B9D682F0037EECA /* ProjectRoyalBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectRoyalBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED75E52A1B9D682F0037EECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED75E52C1B9D682F0037EECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED75E52D1B9D682F0037EECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED75E52F1B9D682F0037EECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED75E5301B9D682F0037EECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED75E5331B9D682F0037EECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED75E5351B9D682F0037EECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED75E53A1B9D682F0037EECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED75E53F1B9D682F0037EECA /* ProjectRoyalBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectRoyalBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED75E5431B9D682F0037EECA /* ProjectRoyalBlueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectRoyalBlueTests.m; sourceTree = "<group>"; };
+		ED75E5451B9D682F0037EECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED75E54A1B9D682F0037EECA /* ProjectRoyalBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectRoyalBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED75E55D1B9D68EC0037EECA /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		ED75E55E1B9D68EC0037EECA /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		ED75E55F1B9D68EC0037EECA /* UIImage+WallPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WallPaper.h"; sourceTree = "<group>"; };
+		ED75E5601B9D68EC0037EECA /* UIImage+WallPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WallPaper.m"; sourceTree = "<group>"; };
+		ED75E5631B9D697A0037EECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED75E5651B9D69850037EECA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED75E5671B9D698E0037EECA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED75E5691B9D6A4F0037EECA /* ProjectRoyalBlue-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProjectRoyalBlue-Prefix.pch"; sourceTree = "<group>"; };
+		ED75E56B1B9D70640037EECA /* UIColor+uiGradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+uiGradients.h"; sourceTree = "<group>"; };
+		ED75E56C1B9D70640037EECA /* UIColor+uiGradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+uiGradients.m"; sourceTree = "<group>"; };
+		ED75E56F1B9D890C0037EECA /* gradients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gradients.json; sourceTree = "<group>"; };
+		EDE800821B9D949C00BED0C0 /* JsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JsonHelper.h; path = ProjectRoyalBlue/JsonHelper.h; sourceTree = "<group>"; };
+		EDE800831B9D949C00BED0C0 /* JsonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JsonHelper.m; path = ProjectRoyalBlue/JsonHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED75E5231B9D682F0037EECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75E5681B9D698E0037EECA /* CoreGraphics.framework in Frameworks */,
+				ED75E5661B9D69850037EECA /* UIKit.framework in Frameworks */,
+				ED75E5641B9D697A0037EECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED75E53C1B9D682F0037EECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED75E5471B9D682F0037EECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED75E51D1B9D682F0037EECA = {
+			isa = PBXGroup;
+			children = (
+				ED75E5281B9D682F0037EECA /* ProjectRoyalBlue */,
+				ED75E56A1B9D6A800037EECA /* Frameworks */,
+				ED75E5421B9D682F0037EECA /* ProjectRoyalBlueTests */,
+				ED75E5271B9D682F0037EECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED75E5271B9D682F0037EECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E5261B9D682F0037EECA /* ProjectRoyalBlue.app */,
+				ED75E53F1B9D682F0037EECA /* ProjectRoyalBlueTests.xctest */,
+				ED75E54A1B9D682F0037EECA /* ProjectRoyalBlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED75E5281B9D682F0037EECA /* ProjectRoyalBlue */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E5771B9D919A0037EECA /* View */,
+				ED75E5711B9D897C0037EECA /* Util */,
+				ED75E56E1B9D88F10037EECA /* Resource */,
+				ED75E55C1B9D68C30037EECA /* Categories */,
+				ED75E52C1B9D682F0037EECA /* AppDelegate.h */,
+				ED75E52D1B9D682F0037EECA /* AppDelegate.m */,
+				ED75E5321B9D682F0037EECA /* Main.storyboard */,
+				ED75E5351B9D682F0037EECA /* Assets.xcassets */,
+				ED75E53A1B9D682F0037EECA /* Info.plist */,
+				ED75E5291B9D682F0037EECA /* Supporting Files */,
+				ED5A9A871B9D986D00296223 /* LaunchScreen.xib */,
+			);
+			path = ProjectRoyalBlue;
+			sourceTree = "<group>";
+		};
+		ED75E5291B9D682F0037EECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E52A1B9D682F0037EECA /* main.m */,
+				ED75E5691B9D6A4F0037EECA /* ProjectRoyalBlue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED75E5421B9D682F0037EECA /* ProjectRoyalBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E5431B9D682F0037EECA /* ProjectRoyalBlueTests.m */,
+				ED75E5451B9D682F0037EECA /* Info.plist */,
+			);
+			path = ProjectRoyalBlueTests;
+			sourceTree = "<group>";
+		};
+		ED75E55C1B9D68C30037EECA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E55D1B9D68EC0037EECA /* NSString+Encrypt.h */,
+				ED75E55E1B9D68EC0037EECA /* NSString+Encrypt.m */,
+				ED75E55F1B9D68EC0037EECA /* UIImage+WallPaper.h */,
+				ED75E5601B9D68EC0037EECA /* UIImage+WallPaper.m */,
+				ED75E56B1B9D70640037EECA /* UIColor+uiGradients.h */,
+				ED75E56C1B9D70640037EECA /* UIColor+uiGradients.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		ED75E56A1B9D6A800037EECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E5671B9D698E0037EECA /* CoreGraphics.framework */,
+				ED75E5651B9D69850037EECA /* UIKit.framework */,
+				ED75E5631B9D697A0037EECA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED75E56E1B9D88F10037EECA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E56F1B9D890C0037EECA /* gradients.json */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		ED75E5711B9D897C0037EECA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EDE800821B9D949C00BED0C0 /* JsonHelper.h */,
+				EDE800831B9D949C00BED0C0 /* JsonHelper.m */,
+			);
+			name = Util;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ED75E5771B9D919A0037EECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED75E52F1B9D682F0037EECA /* ViewController.h */,
+				ED75E5301B9D682F0037EECA /* ViewController.m */,
+				ED02939F1BA443AA00C4BF01 /* MenuView.h */,
+				ED0293A01BA443AA00C4BF01 /* MenuView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED75E5251B9D682F0037EECA /* ProjectRoyalBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED75E5531B9D682F0037EECA /* Build configuration list for PBXNativeTarget "ProjectRoyalBlue" */;
+			buildPhases = (
+				ED75E5221B9D682F0037EECA /* Sources */,
+				ED75E5231B9D682F0037EECA /* Frameworks */,
+				ED75E5241B9D682F0037EECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectRoyalBlue;
+			productName = ProjectRoyalBlue;
+			productReference = ED75E5261B9D682F0037EECA /* ProjectRoyalBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED75E53E1B9D682F0037EECA /* ProjectRoyalBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED75E5561B9D682F0037EECA /* Build configuration list for PBXNativeTarget "ProjectRoyalBlueTests" */;
+			buildPhases = (
+				ED75E53B1B9D682F0037EECA /* Sources */,
+				ED75E53C1B9D682F0037EECA /* Frameworks */,
+				ED75E53D1B9D682F0037EECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED75E5411B9D682F0037EECA /* PBXTargetDependency */,
+			);
+			name = ProjectRoyalBlueTests;
+			productName = ProjectRoyalBlueTests;
+			productReference = ED75E53F1B9D682F0037EECA /* ProjectRoyalBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED75E5491B9D682F0037EECA /* ProjectRoyalBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED75E5591B9D682F0037EECA /* Build configuration list for PBXNativeTarget "ProjectRoyalBlueUITests" */;
+			buildPhases = (
+				ED75E5461B9D682F0037EECA /* Sources */,
+				ED75E5471B9D682F0037EECA /* Frameworks */,
+				ED75E5481B9D682F0037EECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED75E54C1B9D682F0037EECA /* PBXTargetDependency */,
+			);
+			name = ProjectRoyalBlueUITests;
+			productName = ProjectRoyalBlueUITests;
+			productReference = ED75E54A1B9D682F0037EECA /* ProjectRoyalBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED75E51E1B9D682F0037EECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = RaulStudio;
+				TargetAttributes = {
+					ED75E5251B9D682F0037EECA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					ED75E53E1B9D682F0037EECA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ED75E5251B9D682F0037EECA;
+					};
+					ED75E5491B9D682F0037EECA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ED75E5251B9D682F0037EECA;
+					};
+				};
+			};
+			buildConfigurationList = ED75E5211B9D682F0037EECA /* Build configuration list for PBXProject "ProjectRoyalBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED75E51D1B9D682F0037EECA;
+			productRefGroup = ED75E5271B9D682F0037EECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED75E5251B9D682F0037EECA /* ProjectRoyalBlue */,
+				ED75E53E1B9D682F0037EECA /* ProjectRoyalBlueTests */,
+				ED75E5491B9D682F0037EECA /* ProjectRoyalBlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED75E5241B9D682F0037EECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5A9A881B9D986D00296223 /* LaunchScreen.xib in Resources */,
+				ED75E5361B9D682F0037EECA /* Assets.xcassets in Resources */,
+				ED75E5341B9D682F0037EECA /* Main.storyboard in Resources */,
+				ED75E5701B9D890C0037EECA /* gradients.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED75E53D1B9D682F0037EECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED75E5481B9D682F0037EECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED75E5221B9D682F0037EECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75E5311B9D682F0037EECA /* ViewController.m in Sources */,
+				EDE800841B9D949C00BED0C0 /* JsonHelper.m in Sources */,
+				ED75E5611B9D68EC0037EECA /* NSString+Encrypt.m in Sources */,
+				ED75E5621B9D68EC0037EECA /* UIImage+WallPaper.m in Sources */,
+				ED75E52E1B9D682F0037EECA /* AppDelegate.m in Sources */,
+				ED0293A11BA443AA00C4BF01 /* MenuView.m in Sources */,
+				ED75E52B1B9D682F0037EECA /* main.m in Sources */,
+				ED75E56D1B9D70640037EECA /* UIColor+uiGradients.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED75E53B1B9D682F0037EECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75E5441B9D682F0037EECA /* ProjectRoyalBlueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED75E5461B9D682F0037EECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED75E5411B9D682F0037EECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED75E5251B9D682F0037EECA /* ProjectRoyalBlue */;
+			targetProxy = ED75E5401B9D682F0037EECA /* PBXContainerItemProxy */;
+		};
+		ED75E54C1B9D682F0037EECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED75E5251B9D682F0037EECA /* ProjectRoyalBlue */;
+			targetProxy = ED75E54B1B9D682F0037EECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED75E5321B9D682F0037EECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED75E5331B9D682F0037EECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED75E5511B9D682F0037EECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED75E5521B9D682F0037EECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED75E5541B9D682F0037EECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ProjectRoyalBlue/ProjectRoyalBlue-Prefix.pch";
+				INFOPLIST_FILE = ProjectRoyalBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.ProjectRoyalBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED75E5551B9D682F0037EECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ProjectRoyalBlue/ProjectRoyalBlue-Prefix.pch";
+				INFOPLIST_FILE = ProjectRoyalBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.ProjectRoyalBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED75E5571B9D682F0037EECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectRoyalBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.ProjectRoyalBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectRoyalBlue.app/ProjectRoyalBlue";
+			};
+			name = Debug;
+		};
+		ED75E5581B9D682F0037EECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectRoyalBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.ProjectRoyalBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectRoyalBlue.app/ProjectRoyalBlue";
+			};
+			name = Release;
+		};
+		ED75E55A1B9D682F0037EECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProjectRoyalBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.ProjectRoyalBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProjectRoyalBlue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED75E55B1B9D682F0037EECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProjectRoyalBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.ProjectRoyalBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProjectRoyalBlue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED75E5211B9D682F0037EECA /* Build configuration list for PBXProject "ProjectRoyalBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75E5511B9D682F0037EECA /* Debug */,
+				ED75E5521B9D682F0037EECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED75E5531B9D682F0037EECA /* Build configuration list for PBXNativeTarget "ProjectRoyalBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75E5541B9D682F0037EECA /* Debug */,
+				ED75E5551B9D682F0037EECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED75E5561B9D682F0037EECA /* Build configuration list for PBXNativeTarget "ProjectRoyalBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75E5571B9D682F0037EECA /* Debug */,
+				ED75E5581B9D682F0037EECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED75E5591B9D682F0037EECA /* Build configuration list for PBXNativeTarget "ProjectRoyalBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75E55A1B9D682F0037EECA /* Debug */,
+				ED75E55B1B9D682F0037EECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED75E51E1B9D682F0037EECA /* Project object */;
+}

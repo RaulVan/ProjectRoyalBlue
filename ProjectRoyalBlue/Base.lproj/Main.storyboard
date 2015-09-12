@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tD-m2-4kb">
+                                <rect key="frame" x="137" y="518" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnPoint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="84w-Aa-X96"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="iPhone6_2" translatesAutoresizingMaskIntoConstraints="NO" id="gYR-YP-fTU">
+                                <rect key="frame" x="20" y="20" width="280" height="495"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="495" id="AAP-sU-WSc"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wKV-fM-OkP">
+                                <rect key="frame" x="89" y="159" width="142" height="250"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wKV-fM-OkP" firstAttribute="centerX" secondItem="gYR-YP-fTU" secondAttribute="centerX" id="2k2-OU-RYq"/>
+                            <constraint firstAttribute="trailing" secondItem="gYR-YP-fTU" secondAttribute="trailing" id="OW9-Ei-EG5"/>
+                            <constraint firstItem="1tD-m2-4kb" firstAttribute="top" secondItem="gYR-YP-fTU" secondAttribute="bottom" constant="3" id="X4b-JM-gfm"/>
+                            <constraint firstItem="gYR-YP-fTU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zmy-bP-5Vu"/>
+                            <constraint firstItem="gYR-YP-fTU" firstAttribute="centerX" secondItem="1tD-m2-4kb" secondAttribute="centerX" id="dA3-TL-12x"/>
+                            <constraint firstItem="gYR-YP-fTU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="jFr-ga-q5h"/>
+                            <constraint firstItem="wKV-fM-OkP" firstAttribute="centerY" secondItem="gYR-YP-fTU" secondAttribute="centerY" id="qtK-OO-9RN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="iPhoneView" destination="wKV-fM-OkP" id="hcx-4D-g32"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="342"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iPhone6_2" width="1800" height="2600"/>
+    </resources>
+</document>

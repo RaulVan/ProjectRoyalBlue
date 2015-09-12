@@ -1,5 +1,5 @@
 //
-//  PRBColors.h
+//  JsonHelper.h
 //  ProjectRoyalBlue
 //
 //  Created by RaulStudio on 15/9/7.
@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PRBColors : NSObject
+@interface JsonHelper : NSObject
+
++ (NSString *)readeJsonFile:(NSString *)file;
++ (id)jsonToObject;
 
 @end
