@@ -1,0 +1,15 @@
+//
+//  ProjectRoyalBlue-Prefix.pch
+//  ProjectRoyalBlue
+//
+//  Created by RaulStudio on 15/9/7.
+//  Copyright © 2015年 RaulStudio. All rights reserved.
+//
+
+#ifndef ProjectRoyalBlue_Prefix_pch
+#define ProjectRoyalBlue_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ProjectRoyalBlue_Prefix_pch */
